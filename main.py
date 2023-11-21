@@ -17,4 +17,6 @@
 print("Hello")
 print("Mahendra ")
 print("Sain")
+lis=[10,20,30,40]
+print(lis)
 
