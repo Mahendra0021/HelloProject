@@ -17,6 +17,7 @@
 print("Hello")
 print("Mahendra ")
 print("Sain")
-lis=[10,20,30,40]
-print(lis)
+lis=[324,4556,4453,54,346,345]
+l=sorted(lis)
+print(l)
 
