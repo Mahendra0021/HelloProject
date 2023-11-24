@@ -1,0 +1,68 @@
+
+[
+    {
+        "id": 4,
+        "title": "Java",
+        "category": 4,
+        "isbn": "123876420937",
+        "pages": 190,
+        "price": 500,
+        "stock": 100,
+        "description": "java is a good language",
+        "imageUrl": "http://127.0.0.1:432/home/",
+        "status": true,
+        "date_created": "2023-10-26"
+    },
+    {
+        "id": 5,
+        "title": "Java",
+        "category": 4,
+        "isbn": "123876420937",
+        "pages": 190,
+        "price": 500,
+        "stock": 100,
+        "description": "java is a good language",
+        "imageUrl": "http://127.0.0.1:432/home/",
+        "status": true,
+        "date_created": "2023-10-26"
+    },
+    {
+        "id": 1,
+        "title": "Harry Potter",
+        "category": 6,
+        "isbn": "1505740420928",
+        "pages": 101,
+        "price": 24,
+        "stock": 20,
+        "description": "Learn behind-the-scenes secrets of making the \"Harry Potter\" series on a visit to the Warner Bros. Studio. See the whimsical sets, props, and costumes used in the film.",
+        "imageUrl": "http://127.0.0.1:432/home/",
+        "status": true,
+        "date_created": "2023-10-17"
+    },
+    {
+        "id": 2,
+        "title": "Tolken",
+        "category": 6,
+        "isbn": "1505740420928",
+        "pages": 90,
+        "price": 12,
+        "stock": 10,
+        "description": "Explore the wizarding bank of Gringott's and climb aboard the Hogwarts Express",
+        "imageUrl": "http://127.0.0.1:432/home/",
+        "status": true,
+        "date_created": "2023-10-17"
+    },
+    {
+        "id": 3,
+        "title": "Python",
+        "category": 4,
+        "isbn": "180547923457",
+        "pages": 205,
+        "price": 500,
+        "stock": 150,
+        "description": "ython is a high-level, general-purpose programming language.",
+        "imageUrl": "https://www.django-rest-framework.org/tutorial/3-class-based-views/",
+        "status": true,
+        "date_created": "2023-10-17"
+    }
+]
