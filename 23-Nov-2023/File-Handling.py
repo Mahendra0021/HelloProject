@@ -158,9 +158,25 @@
 
     # kisi ek values ko print kra na
 
-import  json
-with open(r"C:\Users\abc\PycharmProjects\pythonProject\HelloProject\23-Nov-2023/read.json","r") as f:
-    x=f.read()
-    DataJson=json.loads(x)
-    for i in DataJson:
-        print(i['title'],i['pages'])
+# import  json
+# with open(r"C:\Users\abc\PycharmProjects\pythonProject\HelloProject\23-Nov-2023/read.json","r") as f:
+#     x=f.read()
+#     DataJson=json.loads(x)
+#     for i in DataJson:
+#         print(i['title'],i['pages'])
+
+
+
+        # write JSON String
+
+# import json
+#
+# data={
+#     "name":"Mahendra",
+#     "age":21,
+#     "city":"Jaipur"
+# }
+# datajson=json.dumps(data)
+# print(datajson)
+
+
