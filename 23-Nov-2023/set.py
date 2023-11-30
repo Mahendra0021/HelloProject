@@ -22,9 +22,9 @@
 
         # Update Method
 
-# l=[1,2,3,4]
-# li=[6,7,8]
-# print(l+li)
+l=[1,2,3,4]
+li=[6,7,8]
+print(l+li)
 #
 #
 # s=set(l)
