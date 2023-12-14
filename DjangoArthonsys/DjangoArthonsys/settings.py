@@ -17,6 +17,7 @@ SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'DjangoArthonsys.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "arthonsys_technology",
+        "USER": 'Athonsys',
+        "PASSWORD": '1234',
+        "POST": '3306',
+        "HOST": '127.0.0.1',
     }
 }
 
@@ -100,7 +105,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
