@@ -22,7 +22,7 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('',views.index,name=""),
-    # path('Contacts/', views.contact, name="Contacts"),
+        # path('Contacts/', views.contact, name="Contacts"),
     path('',include('Arthonsys.urls'))
 
 ]
